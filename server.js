@@ -7,6 +7,6 @@ app.get('/', (req, res)=> {
         status: 200,
         message: "Hello world"
     })
-})
+});
 
 app.listen(8080, () => {console.log("app running on port 8080")})
