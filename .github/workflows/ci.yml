@@ -20,4 +20,4 @@ jobs:
     - name: Build the Docker image
       run: docker build -t cicd_pipneline .
     - name: Push to Dockerhub
-      run: docker push johnkegz/cicdpipneline:latest
+      run: docker push johnkegz/cicd_pipneline:latest
